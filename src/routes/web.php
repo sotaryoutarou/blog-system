@@ -15,5 +15,5 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, 'index']);
-Route::get('/post', [IndexController::class, 'post']);
-Route::get('/form', [IndexController::class, 'form']);
+Route::get('/posts', [IndexController::class, 'post']);
+Route::get('/forms', [IndexController::class, 'form']);

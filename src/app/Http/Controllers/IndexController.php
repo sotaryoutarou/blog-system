@@ -13,11 +13,11 @@ class IndexController extends Controller
 
     public function post()
     {
-        return view('post.index');
+        return view('posts.index');
     }
 
     public function form()
     {
-        return view('form.index');
+        return view('forms.index');
     }
 }
